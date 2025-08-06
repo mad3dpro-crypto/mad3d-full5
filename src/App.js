@@ -1,7 +1,8 @@
 import React, { useRef } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
-import { OBJExporter } from 'three-stdlib/exporters/OBJExporter';
+import { OBJExporter } from 'three-stdlib';
+
 import * as THREE from 'three';
 
 function AvatarModel({ refMesh }) {
